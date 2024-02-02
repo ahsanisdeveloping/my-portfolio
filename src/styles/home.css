@@ -1,0 +1,70 @@
+        /* #03045E;Federal Blue
+        #0077B6;Honolulu Blue
+        #00B4D8;Pacific Cyan
+        #90E0EF;Non Photo Blue
+        #CAF0F8;Light Cyan */
+.homeStyle{
+    padding:20px;
+    background-color: #ECF0F1;
+}
+.greeting{
+    /* background-color: #0077B6; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: -20px;
+}
+.greetingFirst{
+    font-family: 'Archivo Black', sans-serif;
+    color:#03045E ;
+
+/* font-family: 'Red Hat Display', sans-serif; */
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-left:20%;
+}
+.greetingSecond{
+    font-family: 'Oswald', sans-serif;
+    font-size: 2rem;
+    margin-left:3%;
+    color:black ;
+}
+.greetingThird{
+    font-size: 4rem;
+    margin-left:3%;
+    color:#00B4D8;
+    
+font-family: 'Courgette', cursive;
+/* font-family: 'Oswald', sans-serif; */
+/* font-family: 'Red Hat Display', sans-serif; */
+}
+.avatarDiv{
+    background-image: url('../components/assets/avatars/ahsansvgavatar.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    aspect-ratio: 1/1;
+    width:30%;
+    margin:-5px auto;
+    border-bottom: #03045E 5px solid;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.designationDiv{
+    /* background-color: #03045E; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+.designationHeading{
+    font-family: 'Archivo Black', sans-serif;
+    color:black;
+    font-size: 2.5rem;
+}
+.designationText{
+    font-size: 1.3rem;
+    padding:0px 20%;
+    text-align: center;
+    
+}

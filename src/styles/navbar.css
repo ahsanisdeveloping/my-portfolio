@@ -1,0 +1,50 @@
+       /* #03045E;Federal Blue
+       #0077B6;Honolulu Blue
+       #00B4D8;Pacific Cyan
+       #90E0EF;Non Photo Blue
+       #CAF0F8;Light Cyan */
+       *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .navbar{
+        background-color: #ECF0F1;
+        display: flex;
+        /* background-color: pink; */
+        flex-direction: row;
+        box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.867) inset;
+    }
+    .navbarUl{
+        margin: 0px auto;  
+        display: flex;
+        flex-direction: row;
+        /* background-color: yellow; */
+        justify-content: center;
+        align-items: center;
+    }
+    .navbarUl>li{
+        margin:10px 20px;
+        font-size: 1.7rem;
+        list-style: none;
+        text-decoration: none;
+        
+        font-weight: 700;
+    }
+    .navbarLogoText{
+        font-family: 'Archivo Black', sans-serif;
+        padding:5px 0px;
+        margin-left:50%;
+        font-size: 2.5rem;
+        color: #03045E;
+    }
+    .link{
+        color: #03045E;
+        text-decoration: none;
+        border:0px solid transparent;
+        transition: all ease 300ms;
+    }
+    .link:hover{
+        border-bottom: 3px solid #90E0EF;
+    }
+    

@@ -16,7 +16,6 @@
         color:#03045E;
        }
        .e-card {
-        backdrop-filter: blur(40px);
         padding:10px;
         background: transparent;
         box-shadow: 0px 8px 28px -9px rgba(0,0,0,0.45);
@@ -38,47 +37,8 @@
         margin-left: -50%;
         margin-top: -70%;
         background: linear-gradient(744deg,#62248f,#00B4D8 60%,#015b62);
-      }  
-      .wave:nth-child(2),
-      .wave:nth-child(3) {
-        top: 210px;
       }
-      
-      .playing .wave {
-        border-radius: 40%;
-        animation: wave 3000ms infinite linear;
-      }
-      
-      .wave {
-        border-radius: 40%;
-        animation: wave 55s infinite linear;
-      }
-      
-      .playing .wave:nth-child(2) {
-        animation-duration: 4000ms;
-      }
-      
-      .wave:nth-child(2) {
-        animation-duration: 50s;
-      }
-      
-      .playing .wave:nth-child(3) {
-        animation-duration: 5000ms;
-      }
-      
-      .wave:nth-child(3) {
-        animation-duration: 45s;
-      }
-      
-      @keyframes wave {
-        0% {
-          transform: rotate(0deg);
-        }
-      
-        100% {
-          transform: rotate(360deg);
-        }
-      }
+     
       .projectsDiv{
         display: flex;
         flex-direction: row;

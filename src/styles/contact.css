@@ -1,0 +1,78 @@
+/* #03045E;Federal Blue
+        #0077B6;Honolulu Blue
+        #00B4D8;Pacific Cyan
+        #90E0EF;Non Photo Blue
+        #CAF0F8;Light Cyan */
+.contact{
+    padding:10px 120px 30px 120px;
+    height: 80vh;
+}
+.contactHeadingText{
+    padding:10px;
+        text-align: center;
+        font-size: 3rem;
+    border-bottom: 2px solid  #0077B6;
+        font-weight: 800;
+        color:#03045E;
+}
+.contactButtonsDiv{
+    padding-top:5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.contactButton {
+    height:100px;
+    width:325px;
+    margin: 6px;
+    padding: 15px 25px;
+    border: unset;
+    border-radius: 15px;
+    color: #0077B6;
+    z-index: 1;
+    border: 1px solid #03045E;
+    background: #e8e8e8;
+    position: relative;
+    font-weight: 1000;
+    font-size: 2rem;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.536);
+    box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.294);
+    transition: all 250ms;
+    overflow: hidden;
+   }
+   
+   .contactButton::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    border-radius: 15px;
+    border: 1px  solid white;
+    background-color: #03045E;
+    z-index: -1;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 250ms;
+   }
+   
+   .contactButton:hover {
+    .contactButtonAnchor{
+        text-decoration: none;
+        color:white;
+       }
+    color: white;
+    cursor: pointer;
+   }
+   
+   button:hover::before {
+    width: 100%;
+    
+   }
+   .contactButtonAnchor{
+    text-decoration: none;
+    color:#0077B6;
+   }

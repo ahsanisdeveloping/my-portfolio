@@ -40,6 +40,7 @@
     }
     .link{
         color: #03045E;
+        font-weight: lighter;
         text-decoration: none;
         border:0px solid transparent;
         transition: all ease 300ms;
@@ -47,4 +48,3 @@
     .link:hover{
         border-bottom: 3px solid #90E0EF;
     }
-    

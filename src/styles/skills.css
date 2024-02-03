@@ -6,7 +6,7 @@
         #ECF0F1:whiteThatIHaveUsed */
 .skills{
     background-color: #ECF0F1;
-    padding:30px 150px 30px 150px;
+    padding:30px 120px 30px 120px;
 }
 .skillsHeadingText{
     text-align: center;
@@ -34,10 +34,12 @@
 }
 .skill{
     margin-top:10px;
+    display: flex;
 }
 .skillLabel{
     font-size: 1.5rem;
     font-weight: 700;
+    
 }
 .skillSlider{
     width:300px;

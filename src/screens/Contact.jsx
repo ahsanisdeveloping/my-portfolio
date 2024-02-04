@@ -1,5 +1,6 @@
 import "../styles/contact.css";
 import contactArray from '../data/ContactData';
+
 const Contact = () => {
   return (
     <div className="contact">
@@ -7,7 +8,7 @@ const Contact = () => {
       <div className="contactButtonsDiv">
         {
             contactArray.map((value)=>(
-                <button className="contactButton"><a className="contactButtonAnchor" href={value.link} target='_blank' rel="noreferrer">{value.title}</a></button>
+                <button className="contactButton" onClick={()=>{window.open(value.link)}}>< value.icon/><span className="contactButtonAnchor" href={value.link} target='_blank' rel="noreferrer">{value.title}</span></button>
             ))
         } 
       </div>

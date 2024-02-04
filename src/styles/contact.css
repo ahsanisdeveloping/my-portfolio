@@ -6,6 +6,7 @@
 .contact{
     padding:10px 120px 30px 120px;
     height: 80vh;
+    background-color: #ECF0F1;
 }
 .contactHeadingText{
     padding:10px;
@@ -24,6 +25,9 @@
     flex-wrap: wrap;
 }
 .contactButton {
+    display: flex;
+    align-items: center;
+    /* justify-content:flex-end; */
     height:100px;
     width:325px;
     margin: 6px;
@@ -33,7 +37,7 @@
     color: #03045E;
     z-index: 1;
     border: 1px solid #03045E;
-    background: #e8e8e8;
+    background: #ECF0F1;
     position: relative;
     font-weight: 1000;
     font-size: 2rem;
@@ -51,7 +55,7 @@
     height: 100%;
     width: 0;
     border-radius: 15px;
-    border: 1px  solid white;
+    border: 1px  solid #ECF0F1;
     background-color: #0077B6;
     z-index: -1;
     -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
@@ -64,6 +68,9 @@
         text-decoration: none;
         color:white;
        }
+       .contactIcon{
+        fill: #ECF0F1;
+       }
     color: white;
     cursor: pointer;
    }
@@ -73,6 +80,19 @@
     
    }
    .contactButtonAnchor{
+    flex:5;
+    text-align: left;
     text-decoration: none;
     color:#0077B6;
+    padding-left:35px ;
+   }
+   .contactIcon{
+    flex: 1;
+    height: 40px;
+    width: 40px;
+    fill: #0077B6;
+    /* margin-right: 5px; */
+    padding-left: 10px;
+    /* background-color: pink; */
+    /* top:3px */
    }

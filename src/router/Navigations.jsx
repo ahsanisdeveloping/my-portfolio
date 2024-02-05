@@ -7,8 +7,10 @@ import Projects from "../screens/Projects";
 import Navbar from "../components/navbar/Navbar";
 import Footer from "../components/footer/Footer";
 import Skills from "../screens/Skills";
+import '../App.css'
 const Navigations = () => {
     return ( 
+        <div className="navigations">
     <BrowserRouter>
     <Navbar/>
         <Routes>
@@ -19,7 +21,9 @@ const Navigations = () => {
             <Route path={SKILLS} element={<Skills/>}/>
         </Routes>
         <Footer/>
-    </BrowserRouter> );
+        </BrowserRouter>
+        </div>
+     );
 }
  
 export default Navigations;

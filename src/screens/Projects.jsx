@@ -27,7 +27,7 @@ const Projects = () => {
                 </button>
                 {value.hostingLink!=="" && <button className="projectHostingButton" onClick={()=>{window.open(value.hostingLink)}}>
                   <span href={value.hostingLink} className="projectHostingButtonAnchor" target='_blank' rel="noreferrer">
-                    Hosting
+                    Preview
                   </span>
                 </button>}
               </div>

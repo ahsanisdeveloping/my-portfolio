@@ -4,120 +4,120 @@
         #90E0EF;Non Photo Blue
         #CAF0F8;Light Cyan */
         .projects{
-            padding:10px 120px 30px 120px;
-            /* background: linear-gradient(to right, #03045E, #00B4D8, white); */
-        }
-       .projectsHeading{
-        padding:10px;
-        text-align: center;
-        font-size: 3rem;
-    border-bottom: 2px solid  #0077B6;
-        font-weight: 800;
-        color:#03045E;
-       }
-       .e-card {
-        padding:10px;
-        background: transparent;
-        box-shadow: 0px 8px 28px -9px rgba(0,0,0,0.45);
-        position: relative;
-        width: 300px;
-        height: 330px;
-        border-radius: 16px;
-        overflow: hidden;
+          padding:10px 4% 30px 4%;
+          /* background: linear-gradient(to right, #03045E, #00B4D8, white); */
       }
-      
-      .wave {
-        z-index:-100;
-        position: absolute;
-        width: 540px;
-        height: 700px;
-        opacity: 0.6;
-        left: 0;
-        top: 0;
-        margin-left: -50%;
-        margin-top: -70%;
-        background: linear-gradient(744deg,#62248f,#00B4D8 60%,#015b62);
-      }
-     
-      .projectsDiv{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-      }
-      .project{
-        margin:20px;
-      }
-      .projectTitleText{
-        padding-bottom: 5%;
-        color:#03045E;
-        font-weight: 800;
-        font-size: 1.7rem;
-        text-align: center;
-        border-bottom: #03045E 1px solid;
-      }
-      .projectDescriptionText{
-        padding-top: 10%;
-        color:#03045E;
-        text-align: center;
-        font-size:1.2rem;
-        font-weight: 700;
-        height:130px;
-      }
-      
-      .languagesDiv{
-        margin-top: 10px;
-        display: flex;
-        justify-content: space-evenly;
-        flex-direction: row;
-      }
-      .language{
-        font-size: 1rem;
-        color:#03045E;
-        font-weight: 600;
-        padding:5px;
-        border-radius: 10px;
-        border:1px solid #03045E ;
-      }
-      .meriDiv{
-        padding:5px;
-        position: relative;
-        right:6px;
-        bottom:6px;
-        border-radius: 10px;
-        backdrop-filter: blur(40px);
-        background-color: rgb(222, 242, 252);
-        height:322px;
-        width:292px;
-      }
-      .projectGithubButton,.projectHostingButton{
-        padding:10px 20px;
-        background-color: #00B4D8;
-        border:none;
-        border-radius: 10px;
-        border:#03045E 2px solid;
-        transition: all ease 300ms;
-      }
-      .projectGithubButton:hover,.projectHostingButton:hover{
-        padding:10px 20px;
-        background-color: white;
-        cursor:pointer;
-        border:2px solid #03045E;
-        .projectGithubButtonAnchor,.projectHostingButtonAnchor{
-            color:#03045E;
-            
-        }
-        border-radius: 10px;
-
-      }
+     .projectsHeading{
+      padding:10px;
+      text-align: center;
+      font-size: 3rem;
+  border-bottom: 2px solid  #0077B6;
+      font-weight: 800;
+      color:#03045E;
+     }
+     .e-card {
+      padding:10px;
+      background: transparent;
+      box-shadow: 0px 8px 28px -9px rgba(0,0,0,0.45);
+      position: relative;
+      width: 300px;
+      height: 330px;
+      border-radius: 16px;
+      overflow: hidden;
+    }
+    
+    .wave {
+      z-index:-100;
+      position: absolute;
+      width: 540px;
+      height: 700px;
+      opacity: 0.6;
+      left: 0;
+      top: 0;
+      margin-left: -50%;
+      margin-top: -70%;
+      background: linear-gradient(744deg,#62248f,#00B4D8 60%,#015b62);
+    }
+   
+    .projectsDiv{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .project{
+      margin:20px;
+    }
+    .projectTitleText{
+      padding-bottom: 5%;
+      color:#03045E;
+      font-weight: 800;
+      font-size: 1.7rem;
+      text-align: center;
+      border-bottom: #03045E 1px solid;
+    }
+    .projectDescriptionText{
+      padding-top: 10%;
+      color:#03045E;
+      text-align: center;
+      font-size:1.2rem;
+      font-weight: 700;
+      height:130px;
+    }
+    
+    .languagesDiv{
+      margin-top: 10px;
+      display: flex;
+      justify-content: space-evenly;
+      flex-direction: row;
+    }
+    .language{
+      font-size: 1rem;
+      color:#03045E;
+      font-weight: 600;
+      padding:5px;
+      border-radius: 10px;
+      border:1px solid #03045E ;
+    }
+    .meriDiv{
+      padding:5px;
+      position: relative;
+      right:6px;
+      bottom:6px;
+      border-radius: 10px;
+      backdrop-filter: blur(40px);
+      background-color: rgb(222, 242, 252);
+      height:322px;
+      width:292px;
+    }
+    .projectGithubButton,.projectHostingButton{
+      padding:10px 20px;
+      background-color: #00B4D8;
+      border:none;
+      border-radius: 10px;
+      border:#03045E 2px solid;
+      transition: all ease 300ms;
+    }
+    .projectGithubButton:hover,.projectHostingButton:hover{
+      padding:10px 20px;
+      background-color: white;
+      cursor:pointer;
+      border:2px solid #03045E;
       .projectGithubButtonAnchor,.projectHostingButtonAnchor{
-        text-decoration: none;
-        color:white;
-        font-weight: 700;
+          color:#03045E;
+          
       }
-      .projectButtonsDiv{
-        padding:10px;
-        display: flex;
-        justify-content: space-evenly;
-      }
-      
+      border-radius: 10px;
+
+    }
+    .projectGithubButtonAnchor,.projectHostingButtonAnchor{
+      text-decoration: none;
+      color:white;
+      font-weight: 700;
+    }
+    .projectButtonsDiv{
+      padding:10px;
+      display: flex;
+      justify-content: space-evenly;
+    }
+    

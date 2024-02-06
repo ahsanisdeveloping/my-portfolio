@@ -3,31 +3,38 @@
         #00B4D8;Pacific Cyan
         #90E0EF;Non Photo Blue
         #CAF0F8;Light Cyan */
-.aboutUs{
-    padding:30px 150px 30px 150px;
-    background-color: #ECF0F1;
-}
-.aboutText{
-    font-size: 1.3rem;
-}
-.aboutHighlightedText{
-    color:#00B4D8;
-    font-weight: 600;
-}
-.aboutHighlightedTextDark{
-    color:#03045E;
-    font-weight: 800;
-}
-.aboutHeadings{
-    font-size: 1.3rem;
-    margin-top:10px;
-    font-weight: 700;
-}
-li{
-    margin-left: 23px;
-    font-size: 1.2rem;
-}
-li::marker{
-    color:#00B4D8;
-    font-size: 25px;
-}
+        .aboutUs{
+            padding:30px 10% 30px 10%;
+            background-color: #ECF0F1;
+        }
+        .aboutText{
+            font-size: 1.3rem;
+        }
+        .aboutHighlightedText{
+            color:#00B4D8;
+            font-weight: 600;
+        }
+        .aboutHighlightedTextDark{
+            color:#03045E;
+            font-weight: 800;
+        }
+        .aboutHeadings{
+            font-size: 1.3rem;
+            margin-top:10px;
+            font-weight: 700;
+        }
+        li{
+            margin-left: 23px;
+            font-size: 1.2rem;
+        }
+        li::marker{
+            color:#00B4D8;
+            font-size: 25px;
+        }
+        
+        /* @media screen and (max-width: 600px) {
+            .aboutUs{
+                padding:30px 30px 30px 30px;
+                background-color: #ECF0F1;
+            }
+        } */

@@ -4,56 +4,57 @@
         #90E0EF;Non Photo Blue
         #CAF0F8;Light Cyan
         #ECF0F1:whiteThatIHaveUsed */
-.skills{
-    background-color: #ECF0F1;
-    padding:30px 120px 30px 120px;
-}
-.skillsHeadingText{
-    text-align: center;
-    font-size: 3rem;
-    font-weight: 800;
-    color:#03045E;
-    border-bottom: 2px solid  #0077B6;
-}
-.tSkillsDiv{
-    padding:30px 0;
-}
-.tSkillsHead{
-    margin-top: 20px;
-    text-align: center;
-    font-size: 2rem;
-    font-weight: 800;
-    color:#03045E;
-}
-.skillsContainer{
-    display: flex;
-    flex-direction: row;
-    align-items:flex-start;
-    justify-content: space-around;
-    flex-wrap:wrap;
-}
-.skill{
-    margin-top:10px;
-    display: flex;
-}
-.skillLabel{
-    font-size: 1.5rem;
-    font-weight: 700;
-    
-}
-.skillSlider{
-    width:300px;
-    
-}
-.sSkillsHead{
-    margin-top:20px;
-    text-align: center;
-    font-size: 2rem;
-    font-weight: 800;
-    color:#03045E;
-}
-.sSkillsHeadings{
-    font-size: 1.3rem;
-    margin-top:10px;
-    font-weight: 700;
-}
+        .skills{
+            background-color: #ECF0F1;
+            padding:30px 10% 30px 10%;
+        }
+        .skillsHeadingText{
+            text-align: center;
+            font-size: 3rem;
+            font-weight: 800;
+            color:#03045E;
+            border-bottom: 2px solid  #0077B6;
+        }
+        .tSkillsDiv{
+            padding:30px 0;
+        }
+        .tSkillsHead{
+            margin-top: 20px;
+            text-align: center;
+            font-size: 2rem;
+            font-weight: 800;
+            color:#03045E;
+        }
+        .skillsContainer{
+            display: flex;
+            flex-direction: row;
+            align-items:flex-start;
+            justify-content: space-around;
+            flex-wrap:wrap;
+        }
+        .skill{
+            margin-top:10px;
+            display: flex;
+        }
+        .skillLabel{
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-left: 10%;
+            
+        }
+        .skillSlider{
+            width:300px;
+            
+        }
+        .sSkillsHead{
+            margin-top:20px;
+            text-align: center;
+            font-size: 2rem;
+            font-weight: 800;
+            color:#03045E;
+        }
+        .sSkillsHeadings{
+            font-size: 1.3rem;
+            margin-top:10px;
+            font-weight: 700;
+        }

@@ -3,7 +3,7 @@ const Home = () => {
     return ( 
         <div className="homeStyle">
             <div className='main'>
-            <div className="greeting">
+            <p className="greeting">
                     <span className="greetingFirst">
                         Greetings!
                     </span>
@@ -13,7 +13,7 @@ const Home = () => {
                     <span className='greetingThird'>
                         Ahsan Usman
                     </span>
-                </div>
+                </p>
                 <div className="avatarDiv"></div>
                 <div className="designationDiv">
                     <span className='designationHeading'>A Full Stack Web Developer.</span>

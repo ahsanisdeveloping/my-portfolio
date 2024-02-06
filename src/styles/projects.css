@@ -4,7 +4,7 @@
         #90E0EF;Non Photo Blue
         #CAF0F8;Light Cyan */
         .projects{
-          padding:10px 4% 30px 4%;
+          padding:10px 2% 30px 2%;
           /* background: linear-gradient(to right, #03045E, #00B4D8, white); */
       }
      .projectsHeading{
@@ -46,7 +46,7 @@
       justify-content: center;
     }
     .project{
-      margin:20px;
+      margin:20px 10px;
     }
     .projectTitleText{
       padding-bottom: 5%;

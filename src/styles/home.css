@@ -102,7 +102,6 @@
             .greetingThird{
                 text-align: center;
                 margin-left: 0;
-                white-space: nowrap;
             }
             .designationText{
                 font-size: 1.3rem;

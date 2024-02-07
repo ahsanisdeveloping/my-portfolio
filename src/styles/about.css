@@ -7,7 +7,18 @@
             padding:30px 10% 30px 10%;
             background-color: #ECF0F1;
         }
+        .aboutHeadingDiv{
+
+        }
+        .aboutHeadingText{
+            text-align: center;
+            font-size: 3rem;
+            font-weight: 800;
+            color:#03045E;
+            border-bottom: 2px solid  #0077B6;
+        }
         .aboutText{
+            padding:30px 0;
             font-size: 1.3rem;
         }
         .aboutHighlightedText{

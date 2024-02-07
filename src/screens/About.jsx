@@ -2,6 +2,9 @@ import '../styles/about.css'
 const About = () => {
     return ( 
         <div className="aboutUs">
+            <div className="aboutHeadingDiv">
+                <h1 className='aboutHeadingText'>About</h1>
+            </div>
             <div className="aboutDiv">
                 <p className='aboutText'>
                 I'm <span className='aboutHighlightedTextDark'>Ahsan Usman</span>, a dedicated <span className='aboutHighlightedText'>Computer Science</span> student maintaining a <span className='aboutHighlightedText'>3.6 CGPA</span> (currently in 6th Semester). 

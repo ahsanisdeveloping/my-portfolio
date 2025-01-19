@@ -1,5 +1,26 @@
 const projectsArray = [
     {
+        title:"Openspace Tutor",
+        description:"Designed a Tutor Portal for Openspace using ReactJs and tailwind",
+        hostingLink:"https://openspace.edu.sa/",
+        githubLink:"https://github.com/ahsanisdeveloping/tutor_frontend",
+        languages:["ReactJS", "Tailwind",  "Daisy UI"]
+    },
+    {
+        title:"Project Management System",
+        description:"Created a Project Managemnet System for my univeristy using MERN stack.",
+        hostingLink:"https://fypms-ue.vercel.app/",
+        githubLink:"",
+        languages:["ReactJS", "ExpressJS",  "MongoDB"]
+    },
+    {
+        title:"Headstart Schools Page",
+        description:"Designed a responsive and visually appealing landing page for Headstart School",
+        githubLink:"",
+        hostingLink:"https://staging.d3rsrj3x26yedq.amplifyapp.com/",
+        languages:["NEXT JS", "Tailwind"]
+    },
+    {
         title:"Text Utility App",
         description:"A simple tool that empowers you to modify your text effortlessly.",
         githubLink:"https://github.com/ahsanisdeveloping/TextUtils",

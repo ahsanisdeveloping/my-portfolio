@@ -17,7 +17,7 @@ const Home = () => {
                 <div className="avatarDiv"></div>
                 <div className="designationDiv">
                     <span className='designationHeading'>A Full Stack Web Developer.</span>
-                    <p className='designationText'>Passionate full-stack web developer specializing in React, creating dynamic and user-centric applications with a keen eye for design and a commitment to delivering seamless digital experiences.</p>
+                    <p className='designationText'>Passionate full-stack web developer specializing in React and NEXT JS, creating dynamic and user-centric applications with a keen eye for design and a commitment to delivering seamless digital experiences.</p>
                 </div>
                 
                 

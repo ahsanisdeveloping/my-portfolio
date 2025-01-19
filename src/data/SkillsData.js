@@ -16,6 +16,10 @@ const skillsArray = [
         value:70
     },
     {
+        name:"NEXTJS",
+        value:70
+    },
+    {
         name:"C++",
         value:60
     },

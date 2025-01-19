@@ -20,11 +20,14 @@ const Projects = () => {
                 <p className="projectDescriptionText">{value.description}</p>
               </div>
               <div className="projectButtonsDiv">
-                <button className="projectGithubButton" onClick={()=>{window.open(value.githubLink)}}>
+                {
+                  value.githubLink!==""&&<button className="projectGithubButton" onClick={()=>{window.open(value.githubLink)}}>
                   <span href={value.githubLink} className="projectGithubButtonAnchor" target='_blank' rel="noreferrer">
                     Github
                   </span>
                 </button>
+                }
+                
                 {value.hostingLink!=="" && <button className="projectHostingButton" onClick={()=>{window.open(value.hostingLink)}}>
                   <span href={value.hostingLink} className="projectHostingButtonAnchor" target='_blank' rel="noreferrer">
                     Preview

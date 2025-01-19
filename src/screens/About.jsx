@@ -7,7 +7,7 @@ const About = () => {
             </div>
             <div className="aboutDiv">
                 <p className='aboutText'>
-                I'm <span className='aboutHighlightedTextDark'>Ahsan Usman</span>, a dedicated <span className='aboutHighlightedText'>Computer Science</span> student maintaining a <span className='aboutHighlightedText'>3.6 CGPA</span> (currently in 6th Semester). 
+                I'm <span className='aboutHighlightedTextDark'>Ahsan Usman</span>, a dedicated <span className='aboutHighlightedText'>Computer Science</span> student maintaining a <span className='aboutHighlightedText'>3.6 CGPA</span> (currently in 8th Semester). 
                 </p>
                 <p className='aboutHeadings'>
                     Here's a glimpse of my journey:
